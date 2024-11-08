@@ -113,13 +113,13 @@ int main()
     for (int j = 0; j < nr; j++)
         scanf("%d", &avail[j]);
 
-    printf("\n****** Entered Data ******\n");
-    display_matrix(allocation, "Allocation");
-    display_matrix(max, "Max");
-    printf("\nAvailable resources:\n");
-    for (int i = 0; i < nr; i++)
-        printf(" %d", avail[i]);
-    printf("\n");
+    // printf("\n****** Entered Data ******\n");
+    // display_matrix(allocation, "Allocation");
+    // display_matrix(max, "Max");
+    // printf("\nAvailable resources:\n");
+    // for (int i = 0; i < nr; i++)
+    //     printf(" %d", avail[i]);
+    // printf("\n");
 
     calculate_need();
     display_matrix(need, "Need");
